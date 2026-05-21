@@ -5,4 +5,4 @@ mlflow
 pandas
 xgboost
 scikit-learn
-psycopg2
+psycopg2-binary
