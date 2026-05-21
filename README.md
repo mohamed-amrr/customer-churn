@@ -198,7 +198,7 @@ curl -X POST "http://localhost:8000/predict" \
 
 **Mohamed Amr**
 Faculty of Engineering, New Ismailia University
-- GitHub: [@yourusername](https://github.com/mohamed-amrr)
+- GitHub: [@mohamed-amrr](https://github.com/mohamed-amrr)
 
 ---
 
