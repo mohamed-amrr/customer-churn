@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Churn project/mlruns/918679345706582571/models/m-797bc2f2e62042a0a68d56c76afcf3af/artifacts
+creation_timestamp: 1777320075342
+experiment_id: '918679345706582571'
+last_updated_timestamp: 1777320079264
+model_id: m-797bc2f2e62042a0a68d56c76afcf3af
+model_type: null
+name: Xgboost_Model
+source_run_id: fed5a34500e642be8f1add59bea3aa10
+status: 2
+status_message: null

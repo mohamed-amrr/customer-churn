@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Churn project/mlruns/918679345706582571/687253c01a6b4743bee6fa4dd0b9c18b/artifacts
+end_time: 1777320050316
+entry_point_name: ''
+experiment_id: '918679345706582571'
+lifecycle_stage: active
+run_id: 687253c01a6b4743bee6fa4dd0b9c18b
+run_name: Data Encoding
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777320047687
+status: 3
+tags: []
+user_id: Dell

@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Churn project/mlruns/918679345706582571/models/m-823ac52ffd0644a2abf9294824a38ca7/artifacts
+creation_timestamp: 1777320047787
+experiment_id: '918679345706582571'
+last_updated_timestamp: 1777320050304
+model_id: m-823ac52ffd0644a2abf9294824a38ca7
+model_type: null
+name: onehot_encoder
+source_run_id: 687253c01a6b4743bee6fa4dd0b9c18b
+status: 2
+status_message: null

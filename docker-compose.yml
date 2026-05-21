@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  mlflow:
+    build: ./mlflow
+    container_name: churn_mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow
+    networks:
+      - churn_network
+
+  api:
+    build: ./API
+    container_name: churn_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mlruns:/mlflow
+    environment:
+      MLFLOW_URL: http://mlflow:5000
+    depends_on:
+      - mlflow
+    networks:
+      - churn_network
+
+  gui:
+    build: ./app
+    container_name: churn_gui
+    ports:
+      - "8501:8501"
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      - api
+    networks:
+      - churn_network
+
+networks:
+  churn_network:
+    driver: bridge

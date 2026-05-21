@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Churn project/mlruns/918679345706582571/fed5a34500e642be8f1add59bea3aa10/artifacts
+end_time: 1777320079274
+entry_point_name: ''
+experiment_id: '918679345706582571'
+lifecycle_stage: active
+run_id: fed5a34500e642be8f1add59bea3aa10
+run_name: Training Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777320061557
+status: 3
+tags: []
+user_id: Dell
